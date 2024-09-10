@@ -1,0 +1,28 @@
+h2 {
+    color: orange;
+    font-family: 'Plus Jakarta Sans';
+    text-align: center;
+}
+
+.kotak {
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+#kotak {
+    width: 400px;
+    margin: 10px;
+    color: #fff;
+    background-color: blue;
+    padding: 50px;
+}
+
+body {
+    background: url('img/oranji\ b&w\ depan.png');
+    background-repeat: no-repeat, repeat;
+    background-size: 220vh;
+    color: white;
+}
