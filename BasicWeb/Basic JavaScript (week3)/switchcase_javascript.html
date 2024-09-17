@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case Bang</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("Kamu beruntung ! silahkan pilih hadiahmu dengan masukan angka 1 sampai 5");
+        var hadiah = "";
+            switch (jawab){
+                case "1":
+                hadiah = "Tisu";
+                break;
+
+                case "2":
+                hadiah = "1 Kotak kopi";
+                break;
+
+                case "3":
+                hadiah = "Sticker";
+                break;
+
+                case "4":
+                hadiah = "Minyak";
+                break;
+
+                case "5":
+                hadiah = "";
+                break;
+            default:
+                document.write("<p> Opps! anda salah pilih</p>");
+            }
+
+            if(hadiah === ""){
+                document.write("<p> kamu gagal mendapatkan hadiah</p>");
+            } else {
+                document.write("<h2>Selamat kamu mendapatkan " + hadiah + "<h2>");
+            }
+    </script>
+</body>
+</html>
