@@ -80,4 +80,3 @@ $hasilTidakIdentik = $a !== $b;
 // Display the results
 echo "Hasil Identik (a === b): " . ($hasilIdentik ? 'True' : 'False') . "<br>";
 echo "Hasil Tidak Identik (a !== b): " . ($hasilTidakIdentik ? 'True' : 'False') . "<br>";
-?>
