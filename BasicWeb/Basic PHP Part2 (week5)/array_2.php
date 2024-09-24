@@ -10,6 +10,7 @@ $Dosen = [
 // echo "Name: " . $Dosen['name'] . "<br>";
 // echo "City: " . $Dosen['city'] . "<br>";
 // echo "gender: " . $Dosen['gender'] . "<br>";
+// echo "gender: " . $Dosen['gender'] . "<br>";
 
 echo "<table border='1'>";
 foreach ($Dosen as $key => $value) {
