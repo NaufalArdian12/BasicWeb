@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("button").click(function() {
+        $("#box").load("test-content.html");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="box">
+    <h2>Klik tombol dibawah untuk menampilkan konten</h2>
+  </div>
+  <button type="button">Klik Saya!</button>
+</body>
+</html>
