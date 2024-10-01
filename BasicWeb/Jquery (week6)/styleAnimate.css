@@ -1,0 +1,9 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: #9d7ede;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: #ef40ce;
+  position: relative;
+}
