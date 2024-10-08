@@ -21,7 +21,7 @@
 // $new_text = preg_replace($pattern, $replacement, $text);
 // echo $new_text;
 
-$pattern = '/n,m/';
+$pattern = '/go{1,2}d/';
 $text = 'god is good.';
 if (preg_match($pattern, $text, $matches)) {
   echo "Cocokan: " . $matches[0];
