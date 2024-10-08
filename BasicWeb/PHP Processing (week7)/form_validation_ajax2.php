@@ -75,7 +75,7 @@
         if (valid) {
           $.ajax({
             type: "POST",
-            url: "proses_validasi.php", // Ganti dengan URL file PHP yang akan memproses data
+            url: "process_validation_ajax2.php", // Ganti dengan URL file PHP yang akan memproses data
             data: {
               nama: nama,
               email: email,

@@ -33,4 +33,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Data berhasil dikirim: Nama = $nama, Email = $email, Password berhasil disimpan.";
   }
 }
-?>
+
